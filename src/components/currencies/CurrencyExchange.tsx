@@ -24,7 +24,7 @@ export function CurrencyExchange({ currencies, className }: CurrencyExchangeProp
           {currencies.map((currency) => (
             <div 
               key={currency.symbol}
-              className="flex items-center justify-between p-3 rounded-md bg-secondary/40"
+              className="flex items-center justify-between px-6 py-3 rounded-md bg-secondary/40"
             >
               <div className="flex items-center">
                 <div className="h-8 w-8 flex items-center justify-center rounded-md bg-primary/10 text-primary mr-3">
