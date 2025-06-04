@@ -27,11 +27,11 @@ export function CurrencyExchange({ currencies, className }: CurrencyExchangeProp
               className="flex items-center justify-between px-6 py-3 rounded-md bg-secondary/40"
             >
               <div className="flex items-center">
-                <div className="h-8 w-8 flex items-center justify-center rounded-md bg-primary/10 text-primary mr-3">
+                <div className="h-8 px-3 flex items-center justify-center rounded-md bg-primary/10 text-primary mr-3 font-medium text-sm">
                   {currency.fromCurrency}
                 </div>
                 <ArrowRightIcon className="h-4 w-4 mx-3 text-muted-foreground" />
-                <div className="h-8 w-8 flex items-center justify-center rounded-md bg-primary/10 text-primary mr-3">
+                <div className="h-8 px-3 flex items-center justify-center rounded-md bg-primary/10 text-primary mr-3 font-medium text-sm">
                   {currency.toCurrency}
                 </div>
               </div>
